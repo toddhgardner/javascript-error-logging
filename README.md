@@ -8,25 +8,27 @@ Previously, on <https://gist.github.com/cheeaun/5835757>.
 Hosted services
 ---
 
-- [CatchJS](https://www.catchjs.com) - Screenshots, click trails, email notifications, remote object logging, intelligent error grouping. Extremely lightweight, only 1.78KB.
-- http://errorception.com/ - translate error messages to English; stack traces, source maps, smart grouping
-- http://www.muscula.com/ - source maps, translate error messages to English
-- [Airbrake](https://www.airbrake.io/) - tracekit, source maps. [No automatic error capture](https://github.com/airbrake/airbrake-js/issues/82).
-- http://www.errorstack.com/
-- [The Root Cause](https://therootcause.io/) - RootCause provides you with a comprehensive set of tools to monitor and reproduce errors in web sites / applications. Using the built-in recorder feature you’ll know exactly what the user did. By Bryntum who also makes [Siesta](https://www.bryntum.com/products/siesta/) js ui + unit testing tool
-- http://jslogger.com/
-- [Sentry](https://www.sentry.io/) - source maps, tracekit, breadcrumbs, [inline React error codes](https://blog.sentry.io/2016/08/10/react-minified-errors.html); [free for <150,000 events/month](https://sentry.io/pricing); open source [server](https://github.com/getsentry/sentry) and [clients](https://github.com/getsentry/raven-js)
-- [Raygun](https://raygun.com/) - Error and crash reporting software, stack traces, breadcrumbs, source map support, custom data and tags, filtering, email and chat alerts, sensitive data filtering, deployment tracking, user tracking and real user monitoring (RUM), works with every major language and platform.
-- https://bugsnag.com/ - source maps
-- [Rollbar](https://rollbar.com/) - can [trace errors in 3rd party scripts](https://github.com/rollbar/rollbar.js/issues/108#issuecomment-121448333) as well; [free for <5000 events/month](https://rollbar.com/pricing/); source maps
-- https://www.honeybadger.io/
-- [{Track:js}](http://trackjs.com/) - stores timeline of events that have lead to the error
-- [Usersnap](http://usersnap.com/) - stack traces; [console recorder include XHR monitoring](https://usersnap.com/features/console-recorder)
+- [Airbrake](https://www.airbrake.io/) - tracekit, source maps. [No automatic error capture]
 - [Atatus](https://www.atatus.com/) - real user monitoring(RUM), source maps, tracekit, timeline of events
-- [Loggly](https://www.loggly.com/docs/javascript/) - [no stack tracing](https://github.com/loggly/loggly-jslogger/issues/24)
-- [jsErrLog](http://jserrlog.appspot.com/) - running on the free Google AppEngine
-- [Ruxit Web Monitoring](https://ruxit.com/web-monitoring/) - real user and synthetic monitoring including stacktraces, originating user action and detailed browser metrics.
+- [Bugsnag](https://bugsnag.com/) - source maps
+- [CatchJS](https://www.catchjs.com) - Screenshots, click trails, email notifications, remote object logging, intelligent error grouping. Extremely lightweight, only 1.78KB.
 - [ErrLytics](https://errlytics.com/) - errors with stacktrace, code context and event timeline which led to error. Also provides on demand analytics without any integration.
+- [Errorception](http://errorception.com/) - translate error messages to English; stack traces, source maps, smart grouping
+- [ErrorStack](http://www.errorstack.com/)
+- [Honeybadger](https://www.honeybadger.io/)
+- [jsErrLog](http://jserrlog.appspot.com/) - running on the free Google AppEngine
+- [JSLogger](http://jslogger.com/)
+- [Loggly](https://www.loggly.com/docs/javascript/) - [no stack tracing](https://github.com/loggly/loggly-jslogger/issues/24)
+- [Muscula](http://www.muscula.com/) - source maps, translate error messages to English
+(https://github.com/airbrake/airbrake-js/issues/82).
+- [Raygun](https://raygun.com/) - Error and crash reporting software, stack traces, breadcrumbs, source map support, custom data and tags, filtering, email and chat alerts, sensitive data filtering, deployment tracking, user tracking and real user monitoring (RUM), works with every major language and platform.
+- [Rollbar](https://rollbar.com/) - can [trace errors in 3rd party scripts](https://github.com/rollbar/rollbar.js/issues/108#issuecomment-121448333) as well; [free for <5000 events/month](https://rollbar.com/pricing/); source maps
+- [Ruxit Web Monitoring](https://ruxit.com/web-monitoring/) - real user and synthetic monitoring including stacktraces, originating user action and detailed browser metrics.
+- [Sentry](https://www.sentry.io/) - source maps, tracekit, breadcrumbs, [inline React error codes](https://blog.sentry.io/2016/08/10/react-minified-errors.html); [free for <150,000 events/month](https://sentry.io/pricing); open source [server](https://github.com/getsentry/sentry) and [clients](https://github.com/getsentry/raven-js)
+- [The Root Cause](https://therootcause.io/) - RootCause provides you with a comprehensive set of tools to monitor and reproduce errors in web sites / applications. Using the built-in recorder feature you’ll know exactly what the user did. By Bryntum who also makes [Siesta](https://www.bryntum.com/products/siesta/) js ui + unit testing tool
+- [TrackJS](http://trackjs.com/) - stores timeline of events that have lead to the error
+- [Usersnap](http://usersnap.com/) - stack traces; [console recorder include XHR monitoring](https://usersnap.com/features/console-recorder)
+
 
 Self-hosted services
 --------------------
